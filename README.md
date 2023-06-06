@@ -46,43 +46,55 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+1.Create a new project in QuartusII software.
 
+2.Name the project as uc for upcounter and dc for down counter.
 
+3.Create a new verilog hdl file in the project file.
+
+4.Name the module as dc and uc for down counter and up counter.
+
+5.Within the module declare input and output variables.
+
+6.Create a loop using if-else with condition parameter as reset value.
+
+7.End the loop.
+
+8.End the module.
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Pravinrajj
+RegisterNumber:  212222240080
 */
+### Down-counter
+![dcpro](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/2c6c7e32-28f5-41a7-95e8-adf071b5c8cd)
 
-
-
-
-
+### Up-counter
+![ucpro](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/71b247a7-e693-4f7f-bf0f-c13163bb6b98)
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### Down
+![dcrtl](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/ce72bdc2-17ed-4d71-b141-d58ed48e864c)
 
-
-
-
-
-
-
+### Up
+![ucrtl](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/202e25b6-2272-4045-bc0e-4f62fe504516)
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+### Down 
+![dctd](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/3fe2d5bd-e325-4b15-8e0e-f68f35ae59da)
 
-
-
-
+### Up
+![uctd](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/a465d861-ab8c-4eae-861b-a3d8b30efa85)
 
 ### TRUTH TABLE 
+### Down
+![DCTT](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/ceb7dad6-c329-4c89-be6b-83739a8550d8)
 
-
-
-
-
+### Up
+![UCTT](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/c9e83e83-1e38-453d-b9d4-0799cca466b8)
 
 ### RESULTS 
+Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
