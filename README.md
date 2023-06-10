@@ -69,13 +69,32 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: Pravinrajj
 RegisterNumber:  212222240080
 */
-```
+
 ### Down-counter
-![dcpro](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/2c6c7e32-28f5-41a7-95e8-adf071b5c8cd)
+module dc (input cik,input reset, output [3:0] counter); 
+reg[3:0]counter_down;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter down=4;
+else
+counter dom-counter down-4'di; 
+Land
+assign counter counter dow
+endmodule
 
 ### Up-counter
-![ucpro](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/71b247a7-e693-4f7f-bf0f-c13163bb6b98)
-
+module ud input clk, input reset, output [3:0] counter);
+reg[3:0] counter_up;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter_up<=4'd0;
+counter_up<=counter_up+4'd1;
+Lend
+assign counter = counter_up;
+endmodule
+```
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 ### Down
 ![dcrtl](https://github.com/Pravinrajj/Exp-7-Synchornous-counters-/assets/117917674/ce72bdc2-17ed-4d71-b141-d58ed48e864c)
